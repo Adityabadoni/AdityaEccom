@@ -1,0 +1,108 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
+
+.Homeslider {
+  padding: 30px 0px;
+}
+.homeSlider_main {
+  position: relative;
+  border-radius: 30px !important;
+  background-size: cover;
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 45%;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+  background: #f2f3f4 !important;
+  z-index: 10 !important;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.slick-arrow.slick-next {
+  right: 2% !important;
+}
+.slick-arrow.slick-prev {
+  left: 2% !important;
+  font-family: Font Awesome !important;
+}
+
+.slick-prev:before {
+  content: "\f104" !important;
+  font-family: FontAwesome !important;
+  font-size: 25px !important;
+  color: #000 !important;
+}
+.slick-next:before {
+  content: "\f105" !important;
+  font-family: FontAwesome !important;
+  font-size: 25px !important;
+  color: #000 !important;
+}
+
+.slick-arrow:hover {
+  background: #3bb77e !important;
+}
+.slick-arrow:hover::before {
+  color: #fff !important;
+}
+
+.item img {
+  border-radius: 30px !important;
+}
+.homeSlider_main .item {
+  position: relative;
+}
+.homeSlider_main .item .info {
+  position: absolute;
+  top: 25%;
+  left: 7%;
+  z-index: 100;
+}
+.homeSlider_main .item .info h2 {
+  font-size: 60px;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.homeSlider_main .slick-dots {
+  position: absolute;
+  bottom: 20px !important;
+}
+.homeSlider_main .slick-dots button::before {
+  width: 10px !important;
+  height: 10px !important;
+  font-size: 10px !important;
+}
+.slick-active button::before {
+  color: #3bb77e !important;
+}
+
+.homeSlider_main .item .info p {
+  font-size: 25px;
+  font-weight: 500;
+  color: #7e7e7e;
+}
+.Subscribe {
+  width: 60%;
+  border: none;
+  height: 45px;
+  background: #fff;
+  border-radius: 20px;
+  position: relative;
+  padding: 15px;
+}
+.subs_button {
+  width: 25%;
+  border: none;
+  height: 45px;
+  background: #3bb77e;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 500;
+  position: absolute;
+  right: 180px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}

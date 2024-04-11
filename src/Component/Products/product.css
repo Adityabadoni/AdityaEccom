@@ -1,0 +1,119 @@
+.products_thumb {
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 15px;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+.products_thumb .Badge_label{
+  position: absolute; top: 0px; left: 0px; display: inline-block;
+  background: red; z-index: 10; color: #fff; padding: 3px 15px; font-size: 14px;
+  border-bottom-right-radius: 50px; border-top-left-radius: 5px; text-transform: capitalize;
+}
+
+.products_thumb .Badge_label.hot{background: #f74b81 !important;}
+.products_thumb .Badge_label.sale{background: #67bcee !important;}
+.products_thumb .Badge_label.new{background: #3BB77E !important;}
+.products_thumb .Badge_label.best{background: #f59758 !important;}
+
+.products_thumb:hover{box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);}
+
+.products_thumb .image_wrap{
+    width: 100%;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    position: relative;
+}
+/* .products_thumb .image_wrap .wrapper{height: 170px; overflow: hidden;} */
+
+.products_thumb .image_wrap img{
+    transition: all 0.3s ease-in-out;
+
+}
+.products_thumb img:hover{
+transform: scale(1.1);
+visibility: inherit;
+}
+.products_thumb .image_wrap .overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; 
+    top: 30px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+  /* opacity: 0.8; */
+  font-weight: 400;
+  opacity: 0;
+
+}
+.products_thumb :hover .image_wrap .overlay{
+    opacity: 1;
+    transform: scale(1);
+}
+.products_thumb .image_wrap .overlay ul{
+    width: 100px; height: auto; border-radius: 10px; border: 1px solid #BCE3C9;
+    background: #fff;
+    /* border: 1px solid red;  */
+    text-align: center;
+    /* visibility: hidden; */
+}
+.products_thumb .image_wrap .overlay ul li{
+    border-right: 1px solid #BCE3C9;
+    margin-right: 0px !important;
+    padding: 0px 3px;
+}
+.products_thumb .image_wrap .overlay ul li a{
+    color: #3bb77e !important;
+    display: block; padding: 10px; border-right:  1px solid #BCE3C9;
+    padding: 8px !important;
+}
+.products_thumb .image_wrap .overlay ul li  svg{
+    color: #3bb77e !important;
+}
+.products_thumb .image_wrap .overlay ul li:hover svg{
+    opacity: 0.7;
+    color: #000 !important ;
+}
+.products_thumb .title a {
+  color: #000;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 20px;
+}
+
+.products_thumb .brand_name {
+  color: rgba(0, 0, 0, 0.6);
+}
+.products_thumb .brand_name a{
+  text-decoration: none;
+  color: #000;
+  margin-left: 3px;
+  font-size: 13px;
+}
+.products_thumb button {
+  font-size: 13 px !important;
+  color: #3bb77e !important;
+  padding: 5px 25px !important;
+  background: #def9ec !important;
+  text-transform: capitalize !important;
+}
+.products_thumb button:hover {
+  background: #3bb77e !important;
+  color: #fff !important;
+}
+.old_price{
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+.image_wrap   :hover{
+    /* width: 100%; */
+    /* background-color: red; */
+    opacity: 0.6;
+}
+

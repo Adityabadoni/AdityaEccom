@@ -1,0 +1,42 @@
+header{width: 100%; height:auto; margin: auto; padding: 30px 0px; background: #fff;}
+.logo_img{height: 100%; width: 70%;} 
+.header_wrapper{transition: all 0.3s ease-in-out; background: #fff; position: fixed; top: 0px; left: 0px; width: 100%; z-index: 1000;}
+.header_wrapper.fixed{ top: -100px;  }
+.afterHeader{
+    margin-top: 150px;
+}
+header .headerSearch{width: 100%; height: 40px; border: 1px solid #3bb77e; padding: 10px 20px; border-radius: 4px; }
+header .headerSearch .selectDrop{width: 170px; font-size: 15px !important; font-weight: 600; position: relative;}
+header .headerSearch .selectDrop:after{content: "";width: 1px; height:30px;background: rgba(0,0,0,0.2);position: absolute; right :0px; top: -3px; }
+header .headerSearch .search{width: 82%; padding-left: 30px;  position: relative;}
+header .headerSearch .search input{width: 100%; height: 35px; border: 0px; outline: none !important; font-size: 18px;}
+header .headerSearch .search .searchIcon{position: absolute; top: 6px; right: 0px; opacity: 0.5; font-size: 25px !important;}
+
+
+header .countryWrapper .selectDrop{width: 150px !important; height: 33px;  padding-left: 10px; display: flex; align-items: center;border: 1px solid #ececec;
+    font-size: 14px;
+    -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);}
+    header .countryWrapper .selectDrop .openSelect{width: 100%; font-weight: 600; }
+header .countryWrapper .selectDrop .selectDrop1{left:0px !important; top: 32px; }
+header .countryWrapper  .openSelect{color:#279a65 !important ;}
+
+header .headerTabs{padding-left: 40px;}
+header .headerTabs li{position: relative;}
+header .headerTabs li span{font-size: 15px; cursor: pointer; font-weight: 400;}
+header .headerTabs li span img{margin-right: 10px; font-size: 10px !important; height: 20px;}
+header .headerTabs li span .badge{padding:3px 6px; color: #fff; font-size: 12px; position: absolute;
+font-weight: 400; top: 0px; left: 10px;}
+
+.headerTabs .dropdownMenu{position: absolute; width:200px; top: 40px; right: 0px; font-size: 10px;  background: #fff;  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); padding: 10px 0px; z-index: 100;
+border-radius: 5px;}
+.dropdownMenu li{width: 100% !important; list-style: none; margin: 0px !important; }
+.dropdownMenu li button{width: 100% !important; text-align: left !important; justify-content: flex-start !important; 
+color: rgba(0,0,0,0.7) !important; text-transform: capitalize !important; font-size: 12px !important; padding: 8px 15px !important;}
+
+.dropdownMenu li button svg{opacity: 0.7; margin-right: 8px !important;}
+.dropdownMenu li button:hover{background: #f1f1f1 !important;}
+
+
+
+

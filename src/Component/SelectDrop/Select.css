@@ -1,0 +1,18 @@
+.selectDrop1{width: 230px; height:"auto"; background: #fff; position: absolute; top:140%; left: -20px; z-index: 100;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+     }
+/* .selectDrop .openSelect{display: block; padding: 10px 0px; position: relative; font-weight: 600; font-size: 18px !important; border: 1px solid red;}   */
+.selectDrop .openSelect .arrow{position: absolute; top: 6px; right: 5px; font-size: 15px; } 
+         
+.searchField input{ width: 100%; height: 30px;  border: 1px solid #bce3c9; outline: none; padding: 0px 10px; }
+.selectDrop1 .searchResults{width: 100%; margin: 0px; margin-top: 1px; padding: 5px 0px; max-height: 200px; overflow-y: scroll; overflow-x: scroll;  }
+.selectDrop1 .searchResults li{list-style: none; font-size: 14px; width: 100%; padding: 5px 15px; color: rgba(0,0,0,0.7); border-radius: 7px;}
+.selectDrop1 .searchResults li:hover{background: #3bb77e; color: #000;}
+
+.selectDrop1 .searchResults li.active{background: #f1f1f1; color: #000 !important;}
+
+
+
+
+
+ 
