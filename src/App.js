@@ -20,9 +20,9 @@ function App() {
 
   const fetchData = async () => {
     try {
-      await axios.get(`${baseUrl}productData`).then((res) => { 
-        // console.log(res.data,"app.js");
-        setProductData(res.data);
+      await axios.get(baseUrl).then((res) => { 
+        console.log(res.data.productData,"app.js");
+        setProductData(res.data.productData);
       });
     } catch (err) {
       console.log(err.message);
