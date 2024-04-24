@@ -32,7 +32,7 @@ const Nav = (props) => {
                             <nav className="mb-0" >
                                 <ul className=" list list-inline">
                                     <li className="list-inline-item">
-                                        <Button><Link to={"/"}>Home</Link></Button>
+                                        <Button><Link to={"/"}>Homeee</Link></Button>
                                     </li>
                                     {navData.length !== 0 &&
                                         navData.map((item, index) => {
