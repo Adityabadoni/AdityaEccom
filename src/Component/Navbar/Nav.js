@@ -136,7 +136,7 @@ const Nav = (props) => {
                                         </div>
                                     </li>
                                     <li className="list-inline-item">
-                                        <Button><Link>Contact</Link></Button>
+                                        <Button><Link to={'/about'}>Contact</Link></Button>
                                     </li>
                                 </ul>
                             </nav>
